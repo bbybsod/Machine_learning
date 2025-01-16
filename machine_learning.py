@@ -46,3 +46,4 @@ plt.show()
 
 hours = float(input("Enter hours studied: "))
 predicted_score = model.predict([[hours]])
+print(f"Predicted Exam Score: {predicted_score[0]:.2f}")
